@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color:green;
+
+}
+
+h1, h2 {
+    color: blue;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 4.0em;
+}
+
+ul, ol {
+    font-size: 0.8em;
+    text-indent: 20px;
+    border-style: solid;
+    border-color: black;
+    color: darkgrey;
+}
+
+figure {
+    font-size:0.6em;
+    font-weight: bold;
+}
+p{
+    text-indent: 30px;
+}
+
+
