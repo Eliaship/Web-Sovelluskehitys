@@ -38,6 +38,13 @@ p{
 }
 p.copyright_notice {
     font-size: 0.8em;
+
+}p::first-letter {
+     font-size:8em;
+ }
+
+p::first-line {
+    font-weight: bold;
 }
 
 

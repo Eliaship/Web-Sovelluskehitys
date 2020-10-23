@@ -1,0 +1,18 @@
+.b {
+    font-weight: bold;
+}
+.red {
+    background-color: red;
+    color: white;
+}
+table {
+    border-style: solid;
+}
+.line {
+    border-right: solid grey;
+}
+.caption {
+    border-right: solid grey;
+    border-top: solid grey;
+    border-left: solid grey;
+}
