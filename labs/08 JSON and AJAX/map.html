@@ -20,14 +20,23 @@
 	}
 
 	function addtext(){
+
 		if (document.createTextNode){
-			var textToAdd = " Div was clicked! "
+			var textToAdd = " Div was clicked! ";
 			var newNode = document.createTextNode(textToAdd);
 			document.getElementById("mydiv").appendChild(newNode);
 		} else {
 			alert("Looks like you have an old browser!");
 		}
+      let lista = document.createElement('ul');
+      document.getElementById('mydiv').appendChild(lista);
+      for (let i = 0; i < 5; i++) {
+        lista.appendChild(document.createElement('li')).innerHTML = "Tuleeko mitää?";
+      }
+
 	}
+
+
   </script>
 </head>
 <body>
