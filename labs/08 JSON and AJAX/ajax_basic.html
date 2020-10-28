@@ -22,6 +22,7 @@
     document.getElementById("ajaxButton").onclick = function() { makeRequest(testUrl); };
     let myUrl = document.getElementsByTagName("input").value;
     document.getElementById("button").onclick = function () { makeRequest(myUrl); };
+
     function makeRequest(url) {
       if (window.XMLHttpRequest) { // Mozilla, Safari, ...
         httpRequest = new XMLHttpRequest();
