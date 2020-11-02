@@ -27,11 +27,5 @@ for (let i=0; i < books.length; i++) {
 	row.appendChild(item2);
 	list.appendChild(row);
 }
-let heading = document.querySelector('h1');
-
-document.querySelector('t').onkeypress = function() {
-	document.getElementById('0').heading.innerHTML = books[2].title = heading;
-};
-
 
 document.body.appendChild(list);
